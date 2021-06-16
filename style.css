@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 
-.title-article{
+.title-article, .title-section{
     display: none;
 }
 
