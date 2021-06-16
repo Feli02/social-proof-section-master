@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Spartan', sans-serif;
-    padding: 25px;
+    padding: 60px 25px;
     background: url('./images/bg-pattern-top-mobile.svg') no-repeat, url('./images/bg-pattern-bottom-mobile.svg') no-repeat;
     background-position: top left, bottom right;
     overflow-x: hidden;
@@ -33,11 +33,11 @@ body{
     line-height: 25px;
 }
 
-#rating-stars, #rating-text{
+.rating-stars, .rating-text{
     margin: 8px;
 }
 
-#rating-text{
+.rating-text{
     color: hsl(300, 43%, 22%);
     font-weight: 700;
 }
@@ -55,29 +55,29 @@ body{
 }
 
 
-#profile-part-card{
+.profile-part-card{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 30px;
 }
 
-#profile-img{
+.profile-img{
     border-radius: 50%;
     margin-right: 20px;
     width: 20%;
 }
 
-#type{
+.type{
     color: hsl(333, 80%, 67%);
     margin-top: 5px;
 }
 
-#name{
+.name{
     font-weight: 500;
 }
 
-#opinion {
+.opinion {
     font-size: 15px;
     line-height: 25px;
 }
@@ -100,13 +100,13 @@ body{
     #main-info{
         font-size: 20px;
     }
-    #profile-img {
+    .profile-img {
         width: 15%;
     }
     #all-opinions {
         margin-top: 60px;
     }
-    #opinion,#rating-text, #info-profile {
+    .opinion,.rating-text, .info-profile {
         font-size: 18px;
     }
     #main-title {
@@ -117,7 +117,7 @@ body{
 
 @media (min-width: 1200px){
     body{
-        padding: 40px 120px;
+        padding: 90px;
     }
     #top-card{
         display: flex;
@@ -135,10 +135,10 @@ body{
     #main-title, #main-info {
         text-align: left;
     }
-    #rating-stars{
+    .rating-stars{
         margin-left: 20px;
     }
-    #rating-text{
+    .rating-text{
         font-size: 13px;
     }
     #main-title {
@@ -154,10 +154,10 @@ body{
         justify-content: space-between;
         margin-top: 15px;
     }
-    #name{
+    .name{
         font-weight: 700;
     }
-    #opinion{
+    .opinion{
         font-size: 14px;
     }
     .profile-opinion-card {
@@ -166,10 +166,10 @@ body{
         margin: 0px;
         padding: 25px;
     }
-    #info-profile {
+    .info-profile {
         font-size: 14px;
     }
-    #profile-part-card {
+    .profile-part-card {
         margin-bottom: 20px;
     }
     .rating-card{
