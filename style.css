@@ -12,6 +12,10 @@ body{
     overflow-x: hidden;
 }
 
+.title-article{
+    display: none;
+}
+
 #main-title{
     text-align: center;
     color: hsl(300, 43%, 22%);
